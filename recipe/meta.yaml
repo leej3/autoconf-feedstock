@@ -9,7 +9,7 @@ source:
     url: http://ftp.gnu.org/gnu/autoconf/autoconf-{{ version }}.tar.gz
 
 build:
-    number: 0
+    number: 1
     skip: True  # [win]
 
 requirements:
@@ -29,4 +29,5 @@ about:
 
 extra:
     recipe-maintainers:
+        - jakirkham
         - ocefpaf
