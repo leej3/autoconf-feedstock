@@ -73,6 +73,11 @@ Linux: [![Circle CI](https://circleci.com/gh/conda-forge/autoconf-feedstock.svg?
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/autoconf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/autoconf-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/autoconf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/autoconf-feedstock/branch/master)
 
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/autoconf/badges/version.svg)](https://anaconda.org/conda-forge/autoconf)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/autoconf/badges/downloads.svg)](https://anaconda.org/conda-forge/autoconf)
+
 
 Updating autoconf-feedstock
 ===========================
