@@ -5,7 +5,7 @@ Home: http://www.gnu.org/software/autoconf/
 
 Package license: GPL 3
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Extensible M4 macros that produce shell scripts to configure software source code packages.
 
