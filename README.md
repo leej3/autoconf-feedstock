@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/autoconf-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/autoconf-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/autoconf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/autoconf-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/autoconf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/autoconf-feedstock/branch/master)
