@@ -16,10 +16,10 @@ build:
 requirements:
     build:
         - m4
-        - perl
+        - perl >=5.20
     run:
         - m4
-        - perl
+        - perl >=5.20
 
 test:
     commands:
