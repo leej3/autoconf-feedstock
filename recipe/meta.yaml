@@ -12,6 +12,9 @@ source:
   sha256: {{ sha256 }}
   patches:
     - shebang.patch
+    # This patch fixes "503: autoscan" test failure.
+    # From http://lists.gnu.org/archive/html/bug-autoconf/2013-01/msg00060.html
+    - autoscan-fix.patch
 
 build:
   number: {{ build }}
