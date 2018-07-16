@@ -33,8 +33,6 @@ requirements:
 test:
   commands:
     - autoconf --help
-    - conda inspect linkages -p $PREFIX autoconf  # [not win]
-    - conda inspect objects -p $PREFIX autoconf  # [osx]
 
 about:
   home: http://www.gnu.org/software/autoconf/
