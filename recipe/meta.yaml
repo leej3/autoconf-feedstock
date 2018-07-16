@@ -21,8 +21,6 @@ build:
   skip: true  # [win]
 
 requirements:
-  build:
-    - {{ compiler("c") }}
   host:
     - m4
     - perl
