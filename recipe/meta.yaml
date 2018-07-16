@@ -39,7 +39,9 @@ about:
   license: GPL-3.0
   license_family: GPL
   license_file: COPYING
-  summary: 'Extensible M4 macros that produce shell scripts to configure software source code packages.'
+  summary: >
+             Extensible M4 macros that produce shell scripts to configure
+             software source code packages.
 
 extra:
   recipe-maintainers:
