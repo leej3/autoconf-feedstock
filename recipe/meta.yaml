@@ -22,6 +22,8 @@ build:
 
 requirements:
   build:
+    - {{ compiler("c") }}
+  host:
     - m4
     - perl
   run:
