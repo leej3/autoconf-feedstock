@@ -1,8 +1,11 @@
 #!/bin/sh
 
-./configure --prefix=$PREFIX PERL='/usr/bin/env perl'
+./configure --prefix=${PREFIX}        \
+            --libdir=${PREFIX}/lib    \
+            --build=${BUILD}          \
+            --host=${HOST}            \
+            PERL='/usr/bin/env perl'
 
-make
+make -j${CPU_COUNT} ${VERBOSE_AT}
 make check
 make install
-

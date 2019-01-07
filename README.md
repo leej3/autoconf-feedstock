@@ -11,7 +11,10 @@ Feedstock license: BSD 3-Clause
 
 Summary: Extensible M4 macros that produce shell scripts to configure software source code packages.
 
-
+Autoconf is a tool for producing shell scripts that automatically configure
+software source code packages to adapt to many kinds of Posix-like systems.
+The configuration scripts produced by Autoconf are independent of Autoconf
+when they are run, so their users do not need to have Autoconf.
 
 
 Current build status
@@ -112,5 +115,6 @@ Feedstock Maintainers
 =====================
 
 * [@jakirkham](https://github.com/jakirkham/)
+* [@mingwandroid](https://github.com/mingwandroid/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
