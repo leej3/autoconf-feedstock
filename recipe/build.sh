@@ -7,5 +7,5 @@
             PERL='/usr/bin/env perl'
 
 make -j${CPU_COUNT} ${VERBOSE_AT}
-make check
+make check || { cat tests/testsuite.log; exit 1; }
 make install
