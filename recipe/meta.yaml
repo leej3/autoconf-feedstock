@@ -14,21 +14,23 @@ source:
     - 0004-Add-use-lib-.-to-auto-scan-header-.in.patch
 
 build:
-  number: 9
+  number: 10
   skip: true  # [win]
 
 requirements:
   build:
     #  make check requirement:
     - libtool
+    - make
+    - curl
   host:
     - m4
-    - perl
+    - perl *
     #  make check requirement:
     - {{ compiler('c') }}
   run:
     - m4
-    - perl
+    - perl *
 
 test:
   commands:
