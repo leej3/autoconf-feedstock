@@ -24,12 +24,12 @@ requirements:
     - make
   host:
     - m4
-    - perl
+    - perl *
     #  make check requirement:
     - {{ compiler('c') }}
   run:
     - m4
-    - perl
+    - perl *
 
 test:
   commands:
