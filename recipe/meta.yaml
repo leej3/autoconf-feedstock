@@ -22,6 +22,7 @@ requirements:
     #  make check requirement:
     - libtool
     - make
+    - curl
   host:
     - m4
     - perl *
