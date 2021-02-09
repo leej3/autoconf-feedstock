@@ -23,18 +23,16 @@ build:
   skip: true  # [win]
 
 requirements:
-  build:
-    #  make check requirement:
+  host:
+    - {{ compiler('c') }}
 {% if bootstrapping != 'yes' %}
     - libtool
     - curl
 {% endif %}
     - make
-  host:
+  build:
     - m4
     - perl *
-    #  make check requirement:
-    - {{ compiler('c') }}
   run:
     - m4
     - perl *
