@@ -25,11 +25,11 @@ build:
 requirements:
   host:
     - {{ compiler('c') }}
-{% if bootstrapping != 'yes' %}
     - libtool
+    - make
+{% if bootstrapping != 'yes' %}
     - curl
 {% endif %}
-    - make
   build:
     - m4
     - perl *
