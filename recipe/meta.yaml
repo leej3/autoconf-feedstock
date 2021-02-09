@@ -14,13 +14,20 @@ source:
     - 0004-Add-use-lib-.-to-auto-scan-header-.in.patch
 
 build:
+{% if bootstrapping == 'yes' %}
+  number: 0
+  string: h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}_bootstrapping
+{% else %}
   number: 10
+{% endif %}
   skip: true  # [win]
 
 requirements:
   build:
     #  make check requirement:
+{% if bootstrapping != 'yes' %}
     - libtool
+{% endif %}
     - make
     - curl
   host:
