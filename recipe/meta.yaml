@@ -17,6 +17,8 @@ build:
 {% if bootstrapping == 'yes' %}
   number: 0
   string: h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}_bootstrapping
+  script_env:
+    - BOOTSTRAPPING=yes
 {% else %}
   number: 10
 {% endif %}
