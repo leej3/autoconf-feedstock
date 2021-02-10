@@ -27,9 +27,9 @@ build:
 requirements:
   host:
     - {{ compiler('c') }}
-    - libtool
     - make
 {% if bootstrapping != 'yes' %}
+    - libtool
     - curl
 {% endif %}
   build:
