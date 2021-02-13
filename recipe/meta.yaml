@@ -31,13 +31,13 @@ requirements:
     - make
     - libtool
     - curl
-{% endif %}
   host:
     - m4
     - perl
   run:
     - m4
     - perl
+{% endif %}
 
 test:
   commands:
